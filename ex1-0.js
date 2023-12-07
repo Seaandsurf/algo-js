@@ -1,20 +1,25 @@
+let exo1 = "Exercice 1.0"
+console.log(exo1)
+
 let monage = 32;
-console.log(monage);
+console.log("J'ai " + monage + " ans");
 
 let friendage = 28;
-console.log(friendage);
+console.log("Mon ami a " + friendage + " ans");
 
-denisage = monage - 7;
-console.log(denisage);
+ let denisage = monage - 7;
+console.log("Denis " + denisage + " ans");
+
+hussyeinage = denisage * 2;
+console.log("Hussyein a " + hussyeinage + " ans");
 
 noeage = friendage / 3;
-console.log(noeage);
+console.log("Noé a " + noeage + " ans");
 
 let ugurage = (hussyeinage % 9) * denisage;
-console.log(ugurage);
+console.log("Ugur a " + ugurage + " ans");
 
 let robinage = hussyeinage + denisage / 8 + 2;
-console.log(robinage)
-
+console.log("Robin a " + robinage + " ans")
 
 
